@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Alireza Rezvanian | Associate Professor | Artificial Intelligenc | University of Science and Culture</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="google-site-verification" content="vKaLIq1RpTP6NHzDJZtR26qRIVUHvw6nPLWt44ED7Hc" />
+  <meta name="description" content="Personal homepage of Alireza Rezvanian, Faculty Member of Artificial Intelligence and Computing at University of Science and Culture, Tehran, Iran, specializing in Machine Learning, Social Networks, Learning Automata, Soft Computing, and Complex Networks">
+  <meta name="keywords" content="Machine Learning, Learning Automata, Social Networks, Complex Networks, Alireza Rezvanian, A. Rezvanian, Rezvanian, University of Science and Culture, Tehran, Iran, Computer Engineering, Artificial Intelligence">
+  <link rel="canonical" href="https://rezvanian.github.io/">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rezvanian.github.io/">
+  <meta property="og:title" content="Dr. Alireza Rezvanian | Associate Professor | Artificial Intelligenc | University of Science and Culture">
+  <meta property="og:description" content="Personal homepage of Alireza Rezvanian, Faculty Member of Artificial Intelligence and Computing at University of Science and Culture, Tehran, Iran, specializing in Machine Learning, Social Networks, Learning Automata, Soft Computing, and Complex Networks">
+  <meta property="og:image" content="https://rezvanian.github.io/Meybodi-Pic-2014-1.jpg">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://rezvanian.github.io/">
+  <meta property="twitter:title" content="Dr. Alireza Rezvanian | Associate Professor | Artificial Intelligenc | University of Science and Culture">
+  <meta property="twitter:description" content="Personal homepage of Alireza Rezvanian, Faculty Member of Artificial Intelligence and Computing at University of Science and Culture, Tehran, Iran, specializing in Machine Learning, Social Networks, Learning Automata, Soft Computing, and Complex Networks">
+  <meta property="twitter:image" content="https://rezvanian.github.io/Meybodi-Pic-2014-1.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Alireza Rezvanian",
+    "jobTitle": "Associate Professor",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "University of Science and Culture",
+      "alternateName": "USC"
+    },
+    "url": "https://rezvanian.github.io/",
+    "image": "Alireza-rezvanian-01-2026.jpg",
+    "sameAs": [
+      "http://scholar.google.com/citations?user=n2OALakAAAAJ&hl=en",
+      "https://dblp.org/pid/61/4408.html",
+      "https://orcid.org/0000-0003-3775-5565"
+    ]
+  }
+  </script>
+
+  <!-- Modern Contemporary Light Styling -->
+  <style>
+    :root {
+      --bg: #fcfbfa;           /* Warm Ivory */
+      --bg-accent: linear-gradient(135deg, #fbfaf8 0%, #f4f1ea 100%);
+      --card-bg: #ffffff;
+      --card-border: #e9e6df;
+      --primary: #0f172a;      /* Ink / Slate Dark */
+      --primary-muted: #4b5563; /* Cool Grey */
+      --accent-blue: #1e3a8a;  /* Oxford Blue */
+      --accent-blue-hover: #2563eb;
+      --accent-teal: #0d9488;  /* Teal Accent */
+      --accent-teal-hover: #14b8a6;
+      --accent-emerald: #10b981;
+      --accent-orange: #d97706;
+      --sidebar-bg: #f5f2eb;   /* Sandstone light gray */
+      --sidebar-border: #e5e1d8;
+      --sidebar-text: #4b5563;
+      --sidebar-text-hover: #0f172a;
+      --border: #e2e8f0;
+      --shadow: 0 10px 30px rgba(0, 0, 0, 0.02), 0 1px 3px rgba(0, 0, 0, 0.02);
+      --shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.05), 0 1px 5px rgba(0, 0, 0, 0.03);
+      --transition-speed: 0.3s;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg-accent);
+      color: var(--primary);
+      line-height: 1.7;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 30px 20px;
+    }
+
+    /* Dot Grid Background Overlay (Light Mode) */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image: radial-gradient(rgba(0, 0, 0, 0.025) 1px, transparent 1px);
+      background-size: 24px 24px;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    /* Layout Wrapper */
+    .app-container {
+      max-width: 1200px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 290px 1fr;
+      gap: 30px;
+      margin: 0 auto;
+    }
+
+    /* Sidebar (Left Column) */
+    .sidebar {
+      background: var(--sidebar-bg);
+      border: 1px solid var(--sidebar-border);
+      border-radius: 20px;
+      padding: 40px 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: fit-content;
+      position: sticky;
+      top: 30px;
+      box-shadow: var(--shadow);
+      z-index: 100;
+    }
+
+    .profile-frame {
+      position: relative;
+      margin-bottom: 24px;
+    }
+
+    .profile-frame::before {
+      content: "";
+      position: absolute;
+      inset: -4px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, var(--accent-blue) 0%, var(--accent-teal) 100%);
+      opacity: 0.1;
+      z-index: -1;
+      filter: blur(8px);
+      transition: opacity var(--transition-speed) ease;
+    }
+
+    .profile-frame:hover::before {
+      opacity: 0.25;
+    }
+
+    .profile-img {
+      width: 160px;
+      height: 215px;
+      border-radius: 12px;
+      object-fit: cover;
+      border: 2px solid rgba(0, 0, 0, 0.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform var(--transition-speed) ease, border-color var(--transition-speed) ease;
+    }
+
+    .profile-img:hover {
+      transform: scale(1.02);
+      border-color: rgba(0, 0, 0, 0.15);
+    }
+
+    .profile-name {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.45rem;
+      font-weight: 800;
+      text-align: center;
+      margin-bottom: 4px;
+      color: var(--primary);
+      letter-spacing: -0.02em;
+    }
+
+    .profile-title {
+      font-size: 0.85rem;
+      color: var(--accent-teal);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    /* Navigation Links */
+    .nav-menu {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      border-top: 1px solid rgba(0, 0, 0, 0.06);
+      padding-top: 24px;
+      margin-bottom: 30px;
+    }
+
+    .nav-link {
+      color: var(--sidebar-text);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 10px 16px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transition: all var(--transition-speed) ease;
+      cursor: pointer;
+    }
+
+    .nav-link:hover {
+      background: rgba(0, 0, 0, 0.02);
+      color: var(--sidebar-text-hover);
+      transform: translateX(4px);
+    }
+
+    .nav-link.active-nav {
+      background: rgba(30, 58, 138, 0.05);
+      color: var(--accent-blue);
+      font-weight: 600;
+      border-left: 3px solid var(--accent-blue);
+      box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.03);
+    }
+
+    /* Sidebar Social Badges */
+    .sidebar-social {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      border-top: 1px solid rgba(0, 0, 0, 0.06);
+      padding-top: 24px;
+      flex-wrap: wrap;
+    }
+
+    .social-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+    }
+
+    .social-icon:hover {
+      transform: translateY(-3px);
+    }
+
+    /* Scholar (Blue) */
+    .social-icon.scholar {
+      background: rgba(66, 133, 244, 0.08);
+      border: 1px solid rgba(66, 133, 244, 0.15);
+      box-shadow: 0 2px 6px rgba(66, 133, 244, 0.08);
+    }
+
+    .social-icon.scholar:hover {
+      background: #4285f4;
+      box-shadow: 0 4px 12px rgba(66, 133, 244, 0.3);
+    }
+
+    .social-icon.scholar::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24'%3E%3Cpath d='M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z' fill='white'/%3E%3Cpath d='M12 24a7 7 0 0 1-5-2.1 5.5 5.5 0 0 1 10 0A7 7 0 0 1 12 24z' fill='%23e8eaed'/%3E%3C/svg%3E");
+    }
+
+    /* DBLP */
+    .social-icon.dblp {
+      background: rgba(30, 58, 138, 0.08);
+      border: 1px solid rgba(30, 58, 138, 0.15);
+      box-shadow: 0 2px 6px rgba(30, 58, 138, 0.08);
+    }
+
+    .social-icon.dblp:hover {
+      background: #1e3a8a;
+      box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3);
+    }
+
+    .social-icon.dblp::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24'%3E%3Ctext x='12' y='16' text-anchor='middle' font-family='Arial,sans-serif' font-weight='bold' font-size='9' fill='%23FFD700'%3EdblP%3C/text%3E%3C/svg%3E");
+    }
+
+    /* ORCID */
+    .social-icon.orcid {
+      background: rgba(166, 206, 57, 0.08);
+      border: 1px solid rgba(166, 206, 57, 0.15);
+      box-shadow: 0 2px 6px rgba(166, 206, 57, 0.08);
+    }
+
+    .social-icon.orcid:hover {
+      background: #a6ce39;
+      box-shadow: 0 4px 12px rgba(166, 206, 57, 0.3);
+    }
+
+    .social-icon.orcid::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24'%3E%3Cpath d='M8.5 7.5a1.2 1.2 0 1 1 0-2.4 1.2 1.2 0 0 1 0 2.4zM7.8 9h1.4v8.5H7.8zm4.2 0h3.8c2.7 0 4.2 1.8 4.2 4.2s-1.5 4.3-4.2 4.3H12zm1.4 1.2v6.1h2.3c2 0 2.9-1.3 2.9-3s-.9-3.1-2.9-3.1z' fill='white'/%3E%3C/svg%3E");
+    }
+
+    /* USC CV */
+    .social-icon.usc {
+      background: rgba(13, 148, 136, 0.08);
+      border: 1px solid rgba(13, 148, 136, 0.15);
+      box-shadow: 0 2px 6px rgba(13, 148, 136, 0.08);
+    }
+
+    .social-icon.usc:hover {
+      background: #0d9488;
+      box-shadow: 0 4px 12px rgba(13, 148, 136, 0.3);
+    }
+
+    .social-icon.usc::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 19.5A2.5 2.5 0 0 1 6.5 17H20'/%3E%3Cpath d='M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z'/%3E%3C/svg%3E");
+    }
+
+    /* Content Area (Right Column) */
+    .content-area {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    /* Main Banner Header */
+    .main-header {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 30px 40px;
+      box-shadow: var(--shadow);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      position: relative;
+    }
+
+    .header-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header-university {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 2px;
+      text-decoration: none;
+      letter-spacing: -0.01em;
+      transition: color var(--transition-speed) ease;
+    }
+
+    .header-university:hover {
+      color: var(--accent-blue-hover);
+    }
+
+    .header-dept {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--primary-muted);
+      text-decoration: none;
+      margin-bottom: 15px;
+      transition: color var(--transition-speed) ease;
+    }
+
+    .header-dept:hover {
+      color: var(--primary);
+    }
+
+    .header-email-img {
+      margin-top: 4px;
+      display: block;
+      border: none;
+      width: 160px;
+      height: 39px;
+      align-self: flex-start;
+    }
+
+    .last-update {
+      margin-top: 12px;
+      font-size: 0.62rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent-teal);
+    }
+
+    .header-logo-container {
+      flex-shrink: 0;
+      transition: transform var(--transition-speed) ease;
+    }
+
+    .header-logo-container:hover {
+      transform: scale(1.05);
+    }
+
+    .uni-logo {
+      width: 75px;
+      height: 75px;
+      object-fit: contain;
+    }
+
+    /* Main Content Card */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 45px;
+      box-shadow: var(--shadow);
+      min-height: 520px;
+    }
+
+    /* Content Sections (Tab views) */
+    .content-section {
+      display: none;
+      animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .content-section.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .section-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 28px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 14px;
+      letter-spacing: -0.02em;
+      position: relative;
+    }
+
+    .section-title::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      width: 60px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent-blue) 0%, var(--accent-teal) 100%);
+    }
+
+    /* Lists styling */
+    .custom-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .custom-list li {
+      position: relative;
+      padding-left: 28px;
+      font-size: 0.96rem;
+      color: #334155;     /* Easy readable ink color */
+    }
+
+    .custom-list li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 8px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    .prep-list li::before {
+      background: var(--accent-blue);
+      box-shadow: 0 0 6px rgba(30, 58, 138, 0.3);
+    }
+
+    .interest-list li::before {
+      background: var(--accent-teal);
+      box-shadow: 0 0 6px rgba(13, 148, 136, 0.3);
+    }
+
+    /* Course Grid (Teaching) */
+    .course-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .course-card {
+      background: #fafbf9;
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 24px;
+      transition: all var(--transition-speed) ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 130px;
+    }
+
+    .course-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+      border-color: rgba(30, 58, 138, 0.25);
+      background: #ffffff;
+    }
+
+    .course-title {
+      font-weight: 600;
+      font-size: 0.98rem;
+      color: var(--primary);
+      line-height: 1.4;
+      margin-top: 12px;
+    }
+
+    .course-badge {
+      align-self: flex-start;
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 4px 10px;
+      border-radius: 20px;
+    }
+
+    .course-badge.graduate {
+      background: #e8f0fe;
+      color: #1a73e8;
+      border: 1px solid rgba(26, 115, 232, 0.15);
+    }
+
+    .course-badge.undergraduate {
+      background: #e6f4ea;
+      color: #137333;
+      border: 1px solid rgba(19, 115, 51, 0.15);
+    }
+
+    /* Committees container */
+    .committees-container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .committee-category h3 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .committee-category h3::before {
+      content: "";
+      width: 6px;
+      height: 18px;
+      background: var(--accent-teal);
+      border-radius: 4px;
+    }
+
+    .committee-list li::before {
+      background: var(--accent-teal);
+      box-shadow: 0 0 6px rgba(13, 148, 136, 0.3);
+    }
+
+    /* Publications List & Search */
+    .pub-search-bar {
+      position: sticky;
+      top: 0;
+      background: #ffffff;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 24px;
+      z-index: 10;
+    }
+
+    .search-wrapper {
+      position: relative;
+      width: 100%;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--primary-muted);
+      pointer-events: none;
+      width: 18px;
+      height: 18px;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 12px 16px 12px 42px;
+      font-size: 0.95rem;
+      border: 1px solid #d1d5db;
+      background: #ffffff;
+      border-radius: 10px;
+      outline: none;
+      transition: all var(--transition-speed) ease;
+      color: var(--primary);
+    }
+
+    .search-input:focus {
+      border-color: var(--accent-blue);
+      box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.1);
+    }
+
+    .search-clear-btn {
+      position: absolute;
+      right: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      background: none;
+      cursor: pointer;
+      color: var(--primary-muted);
+      display: none;
+      border-radius: 50%;
+      padding: 4px;
+      line-height: 0;
+    }
+
+    .search-clear-btn:hover {
+      background: #f1f5f9;
+      color: var(--primary);
+    }
+
+    .pub-stats {
+      margin-top: 8px;
+      font-size: 0.82rem;
+      color: var(--primary-muted);
+    }
+
+    .pub-stats .highlight {
+      font-weight: 600;
+      color: var(--accent-blue);
+    }
+
+    .publications-list {
+      padding-left: 20px;
+    }
+
+    .publications-list li {
+      padding: 12px 0 12px 10px;
+      border-bottom: 1px solid #f1f5f9;
+      font-size: 0.92rem;
+      color: #4b5563;
+      transition: background var(--transition-speed) ease, padding-left var(--transition-speed) ease;
+    }
+
+    .publications-list li:hover {
+      background: #fafaf9;
+      border-radius: 8px;
+      padding-left: 14px;
+    }
+
+    .publications-list li em {
+      font-style: normal;
+      color: var(--primary);
+    }
+
+    /* PDF Badge Link */
+    .publications-list li a[href$=".pdf"],
+    .publications-list li a[href$=".htm"],
+    .publications-list li a[href$=".html"],
+    .publications-list li a[href$=".rar"],
+    .publications-list li a[href$=".zip"] {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-decoration: none;
+      margin-left: 6px;
+      transition: all var(--transition-speed) ease;
+    }
+
+    .publications-list li a[href$=".pdf"] {
+      background: #e6f4ea;
+      color: #137333;
+      border: 1px solid #ceead6;
+    }
+
+    .publications-list li a[href$=".pdf"]:hover {
+      background: #137333;
+      color: #ffffff;
+      box-shadow: 0 2px 8px rgba(19, 115, 51, 0.2);
+    }
+
+    .publications-list li a[href$=".rar"],
+    .publications-list li a[href$=".zip"] {
+      background: #fef7e0;
+      color: #b06000;
+      border: 1px solid #feebc8;
+    }
+
+    .publications-list li a[href$=".rar"]:hover,
+    .publications-list li a[href$=".zip"]:hover {
+      background: #b06000;
+      color: #ffffff;
+      box-shadow: 0 2px 8px rgba(176, 96, 0, 0.2);
+    }
+
+    .publications-list li a[href$=".htm"],
+    .publications-list li a[href$=".html"] {
+      background: #e8f0fe;
+      color: #1a73e8;
+      border: 1px solid #d2e3fc;
+    }
+
+    .publications-list li a[href$=".htm"]:hover,
+    .publications-list li a[href$=".html"]:hover {
+      background: #1a73e8;
+      color: #ffffff;
+      box-shadow: 0 2px 8px rgba(26, 115, 232, 0.2);
+    }
+
+    .pub-hidden {
+      display: none !important;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 960px) {
+      .app-container {
+        grid-template-columns: 1fr;
+      }
+      .sidebar {
+        position: static;
+        width: 100%;
+        padding: 30px;
+      }
+      .card {
+        padding: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="profile-frame">
+        <img class="profile-img" src="Alireza-rezvanian-01-2026.jpg" alt="Dr. Alireza Rezvanian">
+      </div>
+      <h1 class="profile-name">Alireza Rezvanian</h1>
+      <p class="profile-title">Associate Professor</p>
+      
+      <ul class="nav-menu">
+        <li><a class="nav-link active-nav" href="#academicpreparation">Academic Preparation</a></li>
+        <li><a class="nav-link" href="#researchinterests">Research Interests</a></li>
+        <li><a class="nav-link" href="#teaching">Teaching</a></li>
+        <li><a class="nav-link" href="#publication">Publications</a></li>
+        <li><a class="nav-link" href="#committees">Services & Activities </a></li>
+		<li><a class="nav-link" href="#awards">Awards </a></li>
+      </ul>
+      
+      <div class="sidebar-social">
+        <a href="https://scholar.google.com/citations?user=1Sln9i0AAAAJ&hl=en" class="social-icon scholar" title="Google Scholar"></a>
+        <a href="https://dblp.org/pid/97/3781.html" class="social-icon dblp" title="DBLP Profile"></a>
+        <a href="https://orcid.org/0000-0003-3323-7832" class="social-icon orcid" title="ORCID Profile"></a>
+        <a href="http://rezvanian.usc.ac.ir/" class="social-icon usc" title="USC CV (Persian)"></a>
+		<a class="nav-link" href="https://www.webofscience.com/wos/author/record/B-1604-2012">Web of Science</a>
+		<a class="nav-link" href="https://www.scopus.com/authid/detail.uri?authorId=26421384500">Scopus</a>
+		<a class="nav-link" href="https://www.researchgate.net/profile/Alireza-Rezvanian">ResearchGate</a>
+		<a class="nav-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=alireza+rezvanian">PubMed</a>
+		<a class="nav-link" href="https://www.linkedin.com/in/alireza-rezvanian/">LinkedIn</a>
+		<a class="nav-link" href="https://sciprofiles.com/profile/1962006">SciProfiles</a>
+		<a class="nav-link" href="https://ieeexplore.ieee.org/author/37546976200">IEEE</a>
+		<a class="nav-link" href="https://dl.acm.org/profile/81392616823">ACM</a>
+		<a class="nav-link" href="https://www.amazon.com/stores/author/B0BBKD7DDS">Amazon Author</a>
+		<a class="nav-link" href="https://www.sciencedirect.com/author/26421384500/alireza-rezvanian">Elsevier - ScienceDirect</a>
+		<a class="nav-link" href="https://amirkabir.academia.edu/AlirezaRezvanian">Academia</a>
+		<a class="nav-link" href="https://www.csauthors.net/alireza-rezvanian/">CSAuthors</a>
+		<a class="nav-link" href="https://loop.frontiersin.org/people/2741621/overview">Loop</a>
+		<a class="nav-link" href="https://www.magiran.com/author/profile/443403/%D8%B9%D9%84%DB%8C%D8%B1%D8%B6%D8%A7-%D8%B1%D8%B6%D9%88%D8%A7%D9%86%DB%8C%D8%A7%D9%86">MagIran</a>
+		<a class="nav-link" href="https://en.civilica.com/p/7226/">Civilica</a>
+		<a class="nav-link" href="https://www.semanticscholar.org/author/Alireza-Rezvanian/3208119">Semantic Scholar</a>
+		<a class="nav-link" href="https://www.intechopen.com/profiles/530085">IntechOpen</a>
+		<a class="nav-link" href="https://scholargps.com/scholars/42970333262346/alireza-rezvanian">ScholarGPS</a>
+		
+      </div>
+    </aside>
+    
+    <!-- Main Content Area -->
+    <main class="content-area">
+      <header class="main-header">
+        <div class="header-info">
+          <a class="header-university" href="http://www.aut.ac.ir/">University of Science and Culture</a>
+          <a class="header-dept" href="http://ceit.aut.ac.ir/">Faculty of Artificial Intelligence and Computing</a>
+          mylastname[aT]gmail(d0t)com
+		  <!--<img class="header-email-img" src="emailb.JPG" alt="Contact Email">-->
+          <p class="last-update">Last Updated: Aug. 2026</p>
+        </div>
+        <div class="header-logo-container">
+          <a href="http://www.usc.ac.ir/">
+            <img class="uni-logo" src="University_of_Science_&_Culture_logou.png" alt="USC Logo">
+			<!--University of Science and Culture -->
+          </a>
+        </div>
+      </header>
+      
+      <div class="card">
+        
+        <!-- Academic Preparation -->
+        <section class="content-section active" id="academicpreparation">
+          <h2 class="section-title">Academic Preparation</h2>
+          <ul class="custom-list prep-list">
+  <li><b>Ph. D.</b> Computer Engineering (Artificial Intelligence), Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran, 2016.</li>
+  
+</ul>
+        </section>
+        
+        <!-- Research Interests -->
+        <section class="content-section" id="researchinterests">
+          <h2 class="section-title">Research Interests</h2>
+          <ul class="custom-list interest-list">
+  <li>Machine Learning</li>
+  <li>Social Network Analysis</li>
+  <li>Learning Automata</li>
+  <li>Complex Networks</li>
+  <li>Soft Computing</li>
+</ul>
+        </section>
+        
+        <!-- Teaching -->
+        <section class="content-section" id="teaching">
+          <h2 class="section-title">Teaching Courses</h2>
+          <div class="course-grid">
+  <div class="course-card">
+    <div class="course-badge undergraduate">Undergraduate</div>
+    <div class="course-title">Theory of Formal Languages and Automata</div>
+  </div>
+  <div class="course-card">
+    <div class="course-badge graduate">Graduate</div>
+    <div class="course-title">Graph Mining</div>
+  </div>
+  <div class="course-card">
+    <div class="course-badge undergraduate">Undergraduate</div>
+    <div class="course-title">Artificial Intelligence</div>
+  </div>
+  <div class="course-card">
+    <div class="course-badge graduate">Graduate</div>
+    <div class="course-title">Machine Learning</div>
+  </div>
+  <div class="course-card">
+    <div class="course-badge graduate">Graduate</div>
+    <div class="course-title">Complex Networks Analysis</div>
+  </div>
+  <div class="course-card">
+    <div class="course-badge graduate">Graduate</div>
+    <div class="course-title">Evolutionary Computing</div>
+  </div>
+</div>
+        </section>
+        
+        <!-- Publications -->
+        <section class="content-section" id="publication">
+          <h2 class="section-title">Publications</h2>
+          
+          <div class="pub-search-bar">
+            <div class="search-wrapper">
+              <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+              </svg>
+              <input type="text" class="search-input" id="pub-search" placeholder="Search publications by title, author, year..." autocomplete="off">
+              <button class="search-clear-btn" id="search-clear" title="Clear search">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="6" x2="6" y2="18"/>
+                  <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+              </button>
+            </div>
+            <div class="pub-stats" id="search-stats">
+              Total: <span class="highlight">97</span> publications
+            </div>
+          </div>
+  <h3>Books</h3>        
+    <ol class="publications-list" id="pubs-list">
+		<li data-index="1">	J. Kazemi Kordestani, M. Rezapoor Mirsaleh, A. Rezvanian, M. R. Meybodi, Advances in Learning Automata and Intelligent Optimization, Springer, ISBN: 978-3-030-76290-2, 2022.</li>
+		<li data-index="2">	R. Vafashoar, H. Morshedlou, A. Rezvanian, M. R. Meybodi, “Cellular Learning Automata: Theory and Applications,” Springer, ISBN: 978-3-030-53140-9, 2021.</li>
+		<li data-index="3">	A. Rezvanian, B. Moradabadi, M. Ghavipour, M. M. Daliri Khomami, M. R. Meybodi, “Learning Automata Approach for Social Networks,” Springer, ISBN-13: 978-3030107666, 2019.</li>
+		<li data-index="4">	A. Rezvanian, ‎ A. M. Saghiri, ‎ S. M. Vahidipour,‎ M. Esnaashari,‎ M. R. Meybodi, “Recent Advances in Learning Automata,” Springer, ISBN: ISBN-13: 978-3319724270, 2018.</li>
+		<li data-index="5">	A. Rezvanian, M. R. Meybodi. “Stochastic Social Networks: Measures and Algorithms,” Lambert Academic Publishing, ISBN: 978-3-330-02214-0, 2016.</li>
+	</ol>
+	<hr>
+	<br>
+	<br>
+  <h3>Journal Papers</h3>
+  <ol class="publications-list" id="pubs-list">
+	<li data-index="6">A. Rezvanian, S. M. Vahidipour, and M. R. Meybodi, "A New Stochastic Diffusion Model for Influence Maximization in Social Networks", Scientific Reports, Vol. 13, Article number 6122, DOI:10.1038/s41598-023-33010-8, 2023.</li>
+<li>	S. Rezvanian, A. H. Kashan, A. Rezvanian, A. Sabzevari, “Intelligent Vehicle Routing for Stochastic Service Times: A Grouping Evolution Strategy Approach,” International Journal of Transportation Science and Technology, vol. 22, pp. 315-334, 2026.
+<li>	M. M. D. Khomami, A. Rezvanian, M. R. Meybodi, “Maximum independent set in multiplex social networks and its application to influence maximization,” Scientific Reports, vol. 15, pp. 16322, 2025.
+<li>	R. Karami, S. M. Vahidipour, A. Rezvanian, SEAL+: A Subgraph-Enhanced Framework for Link Prediction with Graph Neural Networks, Journal of Industrial Information Integration 44, 100802, 2025.
+<li>	M. M. D. Khomami, M. R. Meybodi, A. Rezvanian, A cellular goore game-based algorithm for finding the shortest path in stochastic multi-layer graphs, The Journal of Supercomputing 81 (1), 1-50, 2025.
+<li>	O. Ghadami, A. Rezvanian, A scalable method for real-time facial emotion recognition using an artificial neural network and polynomial equation, International Journal of Web Research, vol. 7, no. 4, pp. 39-49, 2024. 
+<li>	M. M. D. Khomami, M. R. Meybodi, A. Rezvanian, Efficient Identification of Maximum Independent Sets in Stochastic Multilayer Graphs with Learning Automata, Results in Engineering, 24, 103224, 2024.
+<li>	A. Rezvanian, S. M. Vahidipour, Z. S. Jalali , A spanning tree approach to social network sampling with degree constraints, Social Network Analysis and Mining, Volume 14, article number 101, 2024.
+<li>	M. Mohammadi, S. Jamshidi, A. Rezvanian, M. Gheisari, A. Kumar, "Advanced fusion of MTM-LSTM and MLP models for time series forecasting: An application for forecasting the solar radiation", Measurement: Sensors, Volume 33, 101179, 2024.
+<li>	S. Jamshidi, M. Mohammadi, S. Bagheri, H. E. Najafabadi, A. Rezvanian, M. Gheisari, M. Ghaderzadeh, A. S. Shahabi, Z. Wu, "Effective Text Classification using BERT, MTM LSTM, and DT", Data & Knowledge Engineering, Volume 151, 102306, 2024.
+<li>	M. M. D. Khomami, M. R. Meybodi, A. Rezvanian, "Exploring social networks through stochastic multilayer graph modeling" Chaos, Solitons & Fractals, Volume 182, 114764, May 2024.
+<li>	A. Rezvanian, S. M. Vahidipour, A. M. Saghiri, "CaAIS: Cellular Automata-Based Artificial Immune System for Dynamic Environments". Algorithms, 17(1): 18, 2024.
+<li>	Y. Mashayekhi, A. Rezvanian, and S. M. Vahidipour, "A novel regularized weighted estimation method for information diffusion prediction in social networks," Applied Network Science, volume 8, Article number 81, 2023.
+<li>	A. Rezvanian, S. M. Vahidipour and M. R. Meybodi, "A new stochastic diffusion model for influence maximization in social networks," Scientific Reports, volume 13, Article number 6122, 2023.
+<li>	S. Labafi, A. Rezvanian, K. Kamarei, D. Mohamadi, “Bibliometric mapping of media policy per data from Web of Science (2000-2019).” Media Management Review, 1(1), 53-77, 2022.
+<li>	M. M. D. Khomami, A. Rezvanian, M. R. Meybodi, A. Bagheri, “CFIN: A community-based algorithm for finding influential nodes in complex social networks.” The Journal of Supercomputing, 77(3), 2207-2236, 2021.
+<li>	R. Hosseini, A. Rezvanian, “AntLP: Ant-based label propagation algorithm for community detection in social networks,” CAAI Transactions on Intelligence Technology, 5(1), 34-41, 2020.
+<li>	J. Kazemi Kordestani, A. Rezvanian, M. R. Meybodi, “New measures for comparing optimization algorithms in dynamic environments,” Natural Computing, 18(4), 705-720, 2019.
+<li>	M. Behzadifar, H. A. Gorji, A. Rezapour, A. Rezvanian, N. L. Bragazzi, S. Vatankhah, “Hepatitis C virus-related policy-making in Iran: a stakeholder and social network analysis,” Health Research Policy and Systems, 17(1), 42, 2019.
+<li>	S. M. Vahidipour, M. Esnaashari, A. Rezvanian, M. R. Meybodi, “GAPN-LA: A framework for solving graph problems using Petri nets and learning automata,” Engineering Applications of Artificial Intelligence, 77, 255-267, 2019.
+<li>	A Rezvanian, S. M. Vahidipour, M. Esnaashari, “New Applications of Learning Automata-based Techniques in Real-World Environments,” Journal of Computational Science, 24, 287-289, 2018.
+<li>	M. M. Daliri Khomami, A. Rezvanian, M. R. Meybodi, “A New Cellular Learning Automata-based Algorithm for Community Detection in Complex Social Networks,” Journal of Computational Science, 24, 413-426, 2018.
+<li>	M Hasanzadeh-Mofrad, A Rezvanian, “Learning Automata Clustering,” Journal of Computational Science, 24, 379-388, 2018.
+<li>	M. M. Daliri Khomami, A. Rezvanian, N. Bagherpour, M. R. Meybodi, “Minimum positive influence dominating set and its application in influence maximization: a learning automata approach,” Applied Intelligence, 48(3), 570-393, 2018.
+<li>	A. Rezvanian, M. R. Meybodi, “Sampling algorithms for stochastic graphs: A learning automata approach,” Knowledge-Based Systems, 127, 126-144, 2017.
+<li>	A. Rezvanian, M. R. Meybodi, “A new learning automata-based sampling algorithm for social networks,” International Journal of Communication Systems, 30(5), e3091, 2017.
+<li>	A. Rezvanian, M. R. Meybodi, “Sampling algorithms for weighted networks,” Social Network Analysis and Mining, 60(1), 1-22, 2016.
+<li>	A. Rezvanian, M. R. Meybodi, “Stochastic graph as a model for social networks,” Computers in Human Behavior, 64, 621-640, 2016.
+<li>	M. M. Daliri Khomami, A. Rezvanian, M. R. Meybodi, “Distributed learning automata based algorithm for community detection in complex networks,” International Journal of Modern Physics B, 30, 1650042, 2016.
+<li>	M. Hasanzadeh, S. Sadeghi, A. Rezvanian, M. R. Meybodi, “Success rate group search optimizer,” Journal of Experimental & Theoretical Artificial Intelligence, 28(1-2), 53-69, 2016.
+<li>	J. Kazemi Kordestani, A. Rezvanian, M. R. Meybodi, “An efficient oscillating inertia weight of particle swarm optimisation for tracking optima in dynamic environments,” Journal of Experimental & Theoretical Artificial Intelligence, 28(1-2), 137-149, 2016.
+<li>	Z. S. Jalali, A. Rezvanian, M. R. Meybodi, “Social network sampling using spanning trees,” International Journal of Modern Physics C, 27(5), 1650052, 2016.
+<li>	M. Hasanzadeh Mofrad, O. Jalilian, A. Rezvanian, M. R. Meybodi, “Service level agreement based adaptive Grid superscheduling,” Future Generation Computer Systems, 55, 62-73, 2016.
+<li>	M. Mahdaviani, J. K. Kordestani, A. Rezvanian, M. R. Meybodi, “LADE: learning automata based differential evolution,” International Journal on Artificial Intelligence Tools, 24(6), 1550023, 2015.
+<li>	A. Rezvanian, M. R. Meybodi, “Finding minimum vertex covering in stochastic graphs: a learning automata approach” Cybernetics and Systems, 46(8), 698-727, 2015.
+<li>	M. Hasanzadeh, S. Sadeghi, A. Rezvanian, M. R. Meybodi, “Cellular edge detection: combining cellular automata and cellular learning automata,” AEU - International Journal of Electronics and Communications, vol. 69(9), 1282-1290, 2015.
+<li>	A. Rezvanian, M. R. Meybodi, “Sampling social networks using shortest paths,” Physica A: Statistical Mechanics and its Applications, 424, 254-268, 2015.
+<li>	A. Rezvanian, M. R. Meybodi, “Finding maximum clique in stochastic graphs using distributed learning automata,” International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems, 23(1), 1-31, 2015.
+<li>	A. E. Ranginkaman, J. Kazemi Kordestani, A. Rezvanian, M. R. Meybodi, “A note on the paper “A multi-population harmony search algorithm with external archive for dynamic optimization problems” by Turky and Abdullah,” Information Sciences, 288, 12-14, 2014.
+<li>	J. Kazemi Kordestani, A. Rezvanian, M. R. Meybodi, “CDEPSO: a bi-population hybrid approach for dynamic optimization problems,” Applied Intelligence, 40(4), 682-694, 2014.
+<li>	A. Rezvanian, M. Rahmati, M. R. Meybodi, “Sampling from complex networks using distributed learning automata,” Physica A: Statistical Mechanics and its Applications, 396, 224-234, 2014.
+<li>	M. Soleimani-Pouri, A. Rezvanian, M. R. Meybodi, “Distributed Learning Automata based Algorithm for Solving Maximum Clique Problem in Stochastic Graphs,” International Journal of Computer Information Systems and Industrial Management Applications, 6,. 484-493, 2014.
+<li>	S. Sadeghi, A. Rezvanian, S. Jamali, M. J. Zomorodian, “Zotero: A Reference Manager for Researchers,” Magazine of Elearning Distribution In Academy, 4(3), 56-64, 2013.
+<li>	M. Alizadeh, M. R. Meybodi, A. Rezvanian, “Solving moving peak problem using a fuzzy particle swarm optimization based memetic algorithm,” The CSI Journal on Computer Science & Engineering, 11(3a), 10-21, 2013.
+<li>	S. Nabizadeh, A. Rezvanian, M. R. Meybodi, “Tracking extrema in dynamic environment using multi-swarm cellular pso with local search,” International Journal of Electronics & Informatics (IJEI), 1(1), 29-37, 2012.
+<li>	S. Sadeghi, A. Rezvanian, E. Kamrani, “An efficient method for impulse noise reduction from images using fuzzy cellular automata,” AEU-International Journal of Electronics and Communications, 66(9), 772-779, 2012.
+<li>	S. Rezvanian, F. Towhidkhah, N. Ghahramani, A. Rezvanian, “Increasing Robustness of the Anesthesia Process from Difference Patient’s Delay Using a State-Space Model Predictive Controller,” Procedia Engineering, 15, 928-932, 2011.
+</ol>
+  <hr>
+  <br>
+  <br>
+<h3> Book chapters (selected) </h3>
+<ol class="publications-list" id="pubs-list">
+	<li> A. Rezvanian, S. M. Vahidipour, A. Sadollah, “An Overview of Ant Colony Optimization Algorithms for Dynamic Optimization Problems,” Ant Colony Optimization - Recent Variants, Application and Perspectives, IntechOpen, 2023.
+	<li> O. R. B. Speily, A. Rezvanian, A. Ghasemzadeh, A. M. Saghiri, S. M. Vahidipour, “Lurkers Versus Posters: Investigation of the Participation Behaviors in Online Learning Communities,” Educational Networking, Lecture Notes in Social Networks, pp. 269-298, 2020.
+	<li> M. Soleimani-pouri, A. Rezvanian, M. R. Meybodi, “An Ant Based Particle Swarm Optimization Algorithm for Maximum Clique Problem in Social Networks,” State of the Art Applications of Social Network Analysis, pp. 295-304, 2014.
+	<li> A. Rezvanian, M. R. Meybodi, “Tracking Extrema in Dynamic Environments Using a Learning Automata-Based Immune Algorithm,” Communications in Computer and Information Science, Grid and Distributed Computing, Control and Automation, vol. 121, pp. 216-225, 2010.
+	<li> A. Rezvanian, M. R. Meybodi, “LACAIS: Learning Automata Based Cooperative Artificial Immune System for Function Optimization,” Communications in Computer and Information Science, vol. 94, Contemporary Computing, Part 2, pp. 64-75, 2010.
+</ol>
+<hr>
+<br>
+<br>
+<h3>	Conference papers (selected) </h3>
+<ol class="publications-list" id="pubs-list">
+<li>	E. Shokri, A. Rezvanian, “Semantic Center-Oriented Loss Enhanced Decision-Based Heterogeneous Graph Attention Networks for Multi-Class Fake News Detection”, 2026 12th International Conference on Web Research (ICWR), pp. 1-7, April 2026.
+<li>	F. Dehghani, A. Rezvanian, “Fall Detection Using Ensemble Deep Learning”, 2025 11th International Conference on Web Research (ICWR), pp. 1-7, April 2025.
+<li>	S. Dolati, A. Rezvanian, “Enhancing Link Prediction Using Node Representation and Ensemble Learning”, 2025 11th International Conference on Web Research (ICWR), pp. 1-7, April 2025.
+<li>	S. Shakuri, A. Rezvanian, An Efficient Approach to Detecting Lung Nodules Using Swin Transformer, 2024 19th Iranian Conference on Intelligent Systems (ICIS), 1-5, 2024.
+<li>	O. Ghadami, A. Rezvanian, S. Shakuri, “Scalable Real-time Emotion Recognition using EfficientNetV2 and Resolution Scaling”, 2024 10th International Conference on Web Research (ICWR), pp. 7-12, April 2024.
+<li>	M. M. D. Khomami, A. M. Saghiri, A. Rezvanian, M. R. Meybodi, A Framework for Scalable Object Storage and Retrieval Considering Privacy Concerns: A Case Study on the Signature Detection, 2023 9th International Conference on Web Research (ICWR), pp. 237-241, 2023.
+<li>	P. Soltanzadeh, A. Rezvanian, “A new pruning method for identifying influential nodes in social networks.” 2022 8th International Conference on Web Research (ICWR 2022), pp. 1-6, Tehran, Iran, May 2022.
+<li>	M. M. D. Khomami, A. Rezvanian, A. M. Saghiri, M. R. Meybodi, “Solving Minimum Dominating Set in Multiplex Networks Using Learning Automata, 26th International Computer Conference, Computer Society of Iran, CSICC 2021, 2021.
+<li>	M. M. D. Khomami, A. Rezvanian, A. M. Saghiri, M. R. Meybodi, “Distributed learning automata-based algorithm for finding K-Clique in complex social networks”, 2020 11th International Conference on Information and Knowledge Technology, IKT 2020.
+<li>	M. M. D. Khomami, A. Rezvanian, A. M. Saghiri, M. R. Meybodi, “Overlapping Community Detection in Social Networks Using Cellular Learning Automata,” 2020 28th Iranian Conference on Electrical Engineering (ICEE), pp. 1-6, Tabriz, Iran, 4-6 Aug. 2020.
+<li>	S. Rezvanian, A. Rezvanian, “Solving Maximal Clique Problem Using Improved Local Search Problem with The Penalty,” 6th International Conference on Industrial and System Engineering (ICISE 2020), pp. 558-564, Tehran, Iran.
+<li>	M. M. D. Khomami, A. Rezvanian, A. M. Saghiri, M. R. Meybodi, “SIG-CLA: A Significant Community Detection based on Cellular Learning Automata,” 2020 8th Iranian Joint Congress on Fuzzy and Intelligent Systems (CFIS), pp. 039-044, Mashhad, Iran, Sep. 2020.
+<li>	M. M. D. Khomami, A. Rezvanian, A. M. Saghiri, M. R. Meybodi, “Utilizing Cellular Learning Automata for Finding Communities in Weighted Networks” 2020 6th International Conference on Web Research (ICWR 2020), pp. 325-329, Tehran, Iran, May 2020.
+<li>	N. Arazkhani, M. R. Meybodi, A. Rezvanian, “An Efficient Algorithm for Influence Blocking Maximization based on Community Detection,” 5th International Conference on Web Research (ICWR 2019), Tehran, Iran, April 24-25, 2019.
+<li>	M. M. Kavoosi, A. Rezvanian, “Spam Detection in Social Networks Using Ensemble Learning,” 5th International Conference on Web Research (ICWR 2019), Tehran, Iran, April 24-25, 2019.
+<li>	N. Arazkhani, M. R. Meybodi, A. Rezvanian, “Influence Blocking Maximization in Social Network Using Centrality Measures,” in Proceedings of the 2019 IEEE 5th International Conference on Knowledge-Based Engineering and Innovation (KBEI 2019), pp. 492-497, Tehran, Iran, March 1, 2019.
+<li>	Y. Mashayekhi, M. R. Meybodi, A. Rezvanian, “Weighted Estimation of Information Diffusion Probabilities for Independent Cascade Model,” in Proceedings of the 4th International Conference on Web Research (ICWR 2018), Tehran, Iran, April 25-26, 2018.
+<li>	M. M. Daliri Khomami, A. Rezvanian, N. Bagherpour, M. R. Meybodi, “Irregular cellular automata based diffusion model for influence maximization,” in Proceedings of the 2017 5th Iranian Joint Congress on Fuzzy and Intelligent Systems (CFIS), pp. 69-74, Qazvin, Iran, March 7-9, 2017.
+<li>	M. Elyasi, M. R. Meybodi, A. Rezvanian, “A New Cellular Learning Automata based Algorithm for Overlapping Community Detection in Social Networks,” in Proceedings of the 8th International Conference on Information and Knowledge Technology (IKT 2016), pp. 172-178, Hamedan, Iran, September 7-8, 2016.
+<li>	M. Elyasi, M. R. Meybodi, A. Rezvanian, M. Amirhaeri, “A Fast Algorithm for Overlapping Community Detection,” in Proceedings of the 8th International Conference on Information and Knowledge Technology (IKT 2016), pp. 221-226, Hamedan, Iran, September 7-8, 2016.
+<li>	M. H. Mirani, M. R. Meybodi, A. Rezvanian, “A New Algorithm for Community Detection Based on Learning Automata in Social Network,” in Proceedings of the 8th International Conference on Information and Knowledge Technology (IKT 2016), pp. 1-6, Hamedan, Iran, September 7-8, 2016.
+<li>	Z. S. Jalali, A. Rezvanian, M. R. Meybodi, “Modeling ads influence spreading on users of social network,” in Proceedings of the 2nd International Conference on Web Research (ICWR 2016), pp. 1-7, Tehran, Iran, April 27-28, 2016.
+<li>	Z. S. Jalali, A. Rezvanian, M. R. Meybodi, “A two-phase sampling algorithm for social networks,” in proceedings of 2015 2nd International Conference on Knowledge-Based Engineering and Innovation (KBEI 2015), pp. 1165-1169, Tehran, Iran, 5-6 Nov. 2015.
+<li>	F. Bozorgi, A. Rezvanian, M. R. Meybodi, “Finding maximum clique in weighted graph using cellular learning automata,” in Proceedings of the 23rd Iranian Conference on Electrical Engineering (ICEE 2015), pp. 1-5, Tehran, Iran, May 10-14, 2015.
+<li>	F. Bozorgi, A. Rezvanian, M. R. Meybodi, “A method based on cellular learning automata for solving weighted k-plex problem,” In proceedings of the 5th Joint Conference of AI & Robotics and 7th Robocup Iran Open International Symposium, pp. 262-269, Qazvin, Iran, April 12, 2015.
+<li>	M. M. Daliri Khomami, A. Rezvanian, M. R. Meybodi, “Community detection in complex networks using edge similarities,” In proceedings of the 2nd international conference on Pattern Recognition and Image Analysis (IPRIA2015), pp. 1-7, Rasht, Iran, 11-12 March 2015.
+<li>	Z. S. Jalali, M. R. Meybodi, A. Rezvanian, “A new method for sampling social networks,” in Proceedings of the 20th Annual Computer Society of Iran (CSI) Conference (CSICC 2015), pp. 488-493, Mashhad, Iran, 2-4 March 2015.
+<li>	A. Mousavian, A. Rezvanian, M. R. Meybodi, “Cellular learning automata based algorithm for solving minimum vertex cover problem,” In proceedings of the 22nd Iranian Conference on Electrical Engineering (ICEE 2014), pp. 996-1000, Tehran, Iran, 2014.
+<li>	M. M. Daliri Khomami, A. Rezvanian, M. R. Meybodi, “Irregular cellular automata for multiple diffusion,” In proceedings of the 22nd Iranian Conference on Electrical Engineering (ICEE 2014), pp. 1-6, Tehran, Iran, 2014.
+<li>	A. Mousavian, A. Rezvanian, M. R. Meybodi, “Solving minimum vertex cover problem using learning automata,” In Proceedings of the 13th Iranian Conference on Fuzzy Systems (IFSC 2013), Qazvin, Iran, 2013.
+<li>	M. Alizadeh, M. R. Meybodi, A. Rezvanian, “A memetic algorithm based on particle swarm optimization for moving peaks problem,” In Proceeding of the 18th Annual CSI Computer Conference (CSI 2013), Tehran, Iran, pp. 1-6, 2013.
+<li>	M. Soleimani-Pouri, A. Rezvanian, M. R. Meybodi, “Finding a maximum clique using ant colony optimization and particle swarm optimization in social networks,” Proceedings of 2012 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM ’12), pp. 58-61, 2012.
+<li>	M. Soleimani-Pouri, A. Rezvanian, M. R. Meybodi, “Solving maximum clique problem in stochastic graphs using learning automata,” In Proceedings of the 2012 Fourth International Conference on Computational Aspects of Social Networks (CASoN), pp. 115-119, Sao Carlos, Brazil, November 21-23, 2012.
+<li>	S. Nabizadeh, A. Rezvanian, M. R. Meybodi, “A multi-swarm cellular PSO based on clonal selection algorithm in dynamic environments,” In Proceedings of the 2012 International Conference on the Informatics, Electronics & Vision (ICIEV), pp. 482-486, 2012.
+<li>	A. Rezvanian, M. R. Meybodi, “An adaptive mutation operator for artificial immune network using learning automata in dynamic environment,” In Proceedings of the World Congress on Nature and Biologically Inspired Computing (NaBIC2010), pp. 486-490, Kitakyushu, Japan, December 15-17, 2010.
+<li>	A. Rezvanian, M. R. Meybodi, “Improving artificial immune system using fuzzy logic,” In Proceedings of the 10th Iranian Conference on Fuzzy Systems (IFS 2010), pp. 173-177, Tehran, Iran, July 13-15, 2010.
+<li>	A. Rezvanian, M. R. Meybodi, “A new model for optimization using cooperative artificial immune system based on learning automata (CAIS-LA),” In Proceedings of the 15th Annual CSI Computer Conference (CSICC 2010), pp. 1-8, Tehran, Iran, February 20-22, 2010.
+<li>	A. Rezvanian, M. R. Meybodi, “A new function optimization method using artificial immune system based on learning automata,” In Proceedings of the 3rd Joint Congress on Fuzzy and Intelligent Systems (IFS 2009), Yazd, Iran, July 15-17, 2009.
+<li>	M. F. Hassanabad, A. Rezvanian, M. R. Meybodi, “A new fast method for crawling the web using reinforcement learning,” In Proceedings of the 14th International CSI Computer Conference (CSICC 2009), Tehran, Iran, March 2009.
+<li>	A. Rezvanian, H. Bashiri, “Persian web characterization based on Saba web crawler,” In Proceedings of the 12th International CSI Computer Conference (CSICC 2007), pp. 852-858, Tehran, Iran, February 2007.
+</ol>
+<hr>
+<br>
+<br>
+<h3> Research projects </h3>
+<ol class="publications-list" id="pubs-list">
+<li>	Multi-Scale Feature Fusion in ConvNeXt V2 for Small Object Detection, The Iran National Science Foundation (INSF), (2026-present)
+<li>	Link Prediction Using an Ego-Level Attention Graph Neural Network, The Iran National Science Foundation (INSF), (2026-present)
+<li>	A. Rezvanian, “Network analysis and learning automata,” Institute for Research in Fundamental Sciences (IPM), Tehran, Iran (2019-2020).
+<li>	A. Rezvanian, “Learning automata for complex social networks,” School of Computer Science, Institute for Research in Fundamental Sciences (IPM), Tehran, Iran (2018-2019).
+<li>	A. Rezvanian, “Modeling social network using stochastic graphs,” School of Computer Science, Institute for Research in Fundamental Sciences (IPM), Tehran, Iran (2016-2018).
+<li>	H. R. Afzali, S. M. Vahidipour, A. Rezvanian, “Second phase of Huceptron system implementation: social network of experts’ part,” Niroo Research Institute (NRI), Tehran, Iran (2017-2018).
+<li>	P. Rasouli, A. Rezvanian, “Link prediction in social network sites,” Sama College, Islamic Azad University, Hamedan, Iran (2014-2015).
+ 
+  
+</ol>
+        </section>
+        
+        <!-- Committees -->
+        <section class="content-section" id="committees">
+          <h2 class="section-title">Professional and Scientific Activities</h2>
+          <div class="committees-container">
+  <div class="committee-category">
+  <br>
+    <h3>At University of Science and Culture</h3>
+    <ul class="custom-list committee-list">
+		<li> Director of Research Affairs, University of Science and Culture, Tehran, Iran (2024-present). </li>
+		<li> Director of Information and Scientific Resources, University of Science and Culture, Tehran, Iran (2023-2024). </li>
+		<li> Supervisor of Computer Engineering – Software (MSc), University of Science and Culture, Tehran, Iran (2023-present).
+		<li> Head of Computer Engineering Department, University of Science and Culture, Tehran, Iran (2021-2023).
+		<li>Member of Research Committee (2023-present)</li>
+		<li>Member of Publication Committee (2023-present)</li>
+	</ul>
+	<br>
+<h3>At IEEE</h3>
+    <ul class="custom-list committee-list">
+		<li> Member of Board IEEE Computer Society Iran Chapter (2022-present)
+		<li> Member of Board IEEE Professional Activities Committee (2025-present)
+		<li> <a href="https://ieee.org.ir/en/home/Content/228">Member of Board IEEE Educational Activities Committee (2025-present)</a>
+	</ul>		
+<br>
+<h3>At Other Universities/Institutes</h3>
+    <ul class="custom-list committee-list">
+		<li> Adjunct professor, Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran (2021-present).
+		<li> Adjunct professor, University of Tehran, Tehran, Iran (2022-present).
+		<li> Adjunct professor, Tarbiat Modares University, Tehran, Iran (2022-2023).
+		<li> Non-resident Researcher, School of Computer Science, Institute for Research in Fundamental Sciences (IPM), Tehran, Iran (2016-2020).
+		<li> Lecturer, Iranian Research Institute for Information Science and Technology (IranDoc), Tehran, Iran (2018 - 2020).
+		<li> Researcher, Niroo Research Institute (NRI): Tehran, Tehran (2017 - 2019).
+		<li> Lecturer, Hamedan University of Technology, Hamedan, Iran (2014 - 2017).
+	</ul>
+	<br>
+<h3>At Publishers</h3>
+    <ul class="custom-list committee-list">	   
+	  <li> Associate Editor, Human-centric Computing and Information Sciences.
+	  <li> Associate Editor, CAAI Transactions on Intelligence Technology (Wiley).
+	  <li> Associate Editor, The Journal of Engineering (Wiley).
+	  <li> Associate editor, Data in Brief (Elsevier).
+	  <li> Lead Guest Editor, Journal of Computational Science (Elsevier), Special Issue on New Applications of Learning Automata-based Techniques in Real-World Environments.
+	  <li> Lead Guest Editor, Journal of Optimization, Special Issue on Soft Computing for Optimization in Complex Systems.
+	  <li> Member of Editorial Board of Modern Technologies Law Journal</li>
+	  <li> Member of Editorial Board of Arman Process Journal</li>
+    </ul>
+  </div>
+</div>
+        </section>
+                <!-- Committees -->
+        <section class="content-section" id="awards">
+          <h2 class="section-title">Awards</h2>
+          <div class="committees-container">
+  <div class="committee-category">
+  <br>    
+    <ul class="custom-list committee-list">
+		<li> Best Researcher Award - Outstanding Social Network Research Award (<a href="https://aidatascientists.com/alireza-rezvanian-social-network-analysis-best-researcher-award-1221/">link</a>) </li>
+		<li> Best Researcher Award - Award for Complex Systems Research Leaders (<a href="https://worldscienceawards.com/alireza-rezvanian-complex-networks-best-researcher-award-13769/">link</a>) </li>
+		<li> Best Researcher Award - Complex Social Networks | Network Science Excellence Award (<a href="https://networkscience-conferences.researchw.com/alireza-rezvanian-complex-social-networks-network-science-excellence-award-2946/">link</a>) </li>
+		<li> Top researcher in University of Science and Culture, Tehran, Iran 2021, 2023, 2024, 2025, 2026.
+		<li> Professor Hesabi Doctoral Dissertation Award, 2018.
+		<li> Iran’s National Elites Foundation award, 2017.
+		<li> Top 1 percent reviewer of computer science, 2017.
+		<li> The 4th Rank among Ph.D. students in Computer Engineering (Artificial Intelligence), Amirkabir University of Technology (Tehran Polytechnic), Iran, 2016.
+		<li> Top researcher in Islamic Azad University of Hamedan, Iran. Fall 2010.
+		<li> The best-selected head session in the 13th Iranian Student Conference on Electrical Engineering (ISCEE 2010), Tehran, Iran, 13 - 17 September 2010.
+		<li> The 1st Rank among M.Sc. students in computer engineering (Artificial Intelligence), Islamic Azad University of Qazvin, Iran, 2009.
+		<li> The 4th Rank among B.Sc. students in Computer Engineering, Bu-Ali Sina University of Hamedan, Iran, 2007.
+		<li> The 1st rank in student council election society of computer enquiring, Bu-Ali Sina University, Hamedan, Iran, 2003.
+		<li> The 2nd rank in student council society election high school, Bu-Ali Sina high school, Hamedan, Iran, 2001.
+		<li> The 5th rank in the Bu-Ali Sina high school entrance exam, Hamedan, Iran, 1999.
+
+	</ul>
+	<br>
+  </div>
+</div>
+        </section>
+
+		
+		
+      </div>
+    </main>
+    
+  </div>
+
+  <!-- Client-side Tab Switcher and Search logic -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // --- Tab Navigation ---
+      const sections = document.querySelectorAll(".content-section");
+      const navLinks = document.querySelectorAll(".nav-link");
+      
+      function showSection(targetId) {
+        let found = false;
+        sections.forEach(sec => {
+          if (sec.id === targetId) {
+            sec.classList.add("active");
+            found = true;
+          } else {
+            sec.classList.remove("active");
+          }
+        });
+        
+        if (!found && sections.length > 0) {
+          sections[0].classList.add("active");
+          targetId = sections[0].id;
+        }
+        
+        navLinks.forEach(link => {
+          const hrefHash = link.getAttribute("href").split("#")[1];
+          if (hrefHash === targetId) {
+            link.classList.add("active-nav");
+          } else {
+            link.classList.remove("active-nav");
+          }
+        });
+        
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+      
+      navLinks.forEach(link => {
+        link.addEventListener("click", function(e) {
+          e.preventDefault();
+          const hash = this.getAttribute("href").split("#")[1];
+          window.location.hash = hash;
+          showSection(hash);
+        });
+      });
+      
+      window.addEventListener("hashchange", function() {
+        const hash = window.location.hash.replace("#", "");
+        if (hash) {
+          showSection(hash);
+        }
+      });
+      
+      // Initialize based on URL hash
+      const initialHash = window.location.hash.replace("#", "");
+      showSection(initialHash || "academicpreparation");
+
+      // --- Publication Search Bar ---
+      const pubSearchInput = document.getElementById("pub-search");
+      const searchClearBtn = document.getElementById("search-clear");
+      const searchStats = document.getElementById("search-stats");
+      const pubListItems = document.querySelectorAll("#pubs-list li");
+      const totalPubs = pubListItems.length;
+
+      // Extract raw texts for faster search
+      const pubData = Array.from(pubListItems).map(li => ({
+        element: li,
+        text: (li.textContent || li.innerText || "").toLowerCase()
+      }));
+
+      function filterPublications() {
+        const query = pubSearchInput.value.trim().toLowerCase();
+        searchClearBtn.style.display = query.length > 0 ? "block" : "none";
+
+        if (query.length === 0) {
+          pubData.forEach(p => p.element.classList.remove("pub-hidden"));
+          searchStats.innerHTML = `Total: <span class="highlight">${totalPubs}</span> publications`;
+          return;
+        }
+
+        const terms = query.split(/\s+/).filter(t => t.length > 0);
+        let matchCount = 0;
+
+        pubData.forEach(p => {
+          const isMatch = terms.every(term => p.text.includes(term));
+          if (isMatch) {
+            p.element.classList.remove("pub-hidden");
+            matchCount++;
+          } else {
+            p.element.classList.add("pub-hidden");
+          }
+        });
+
+        searchStats.innerHTML = `Showing <span class="highlight">${matchCount}</span> of <span class="highlight">${totalPubs}</span> publications`;
+      }
+
+      // Simple debounce
+      let debounceTimeout;
+      pubSearchInput.addEventListener("input", function() {
+        clearTimeout(debounceTimeout);
+        debounceTimeout = setTimeout(filterPublications, 150);
+      });
+
+      searchClearBtn.addEventListener("click", function() {
+        pubSearchInput.value = "";
+        filterPublications();
+        pubSearchInput.focus();
+      });
+    });
+  </script>
+</body>
+</html>
