@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dr. Alireza Rezvanian | Associate Professor | Artificial Intelligenc | University of Science and Culture</title>
   
-  <!-- SEO Meta Tags -->
-  <meta name="google-site-verification" content="vKaLIq1RpTP6NHzDJZtR26qRIVUHvw6nPLWt44ED7Hc" />
+  <!-- SEO Meta Tags -->  
+  <meta name="google-site-verification" content="Tw5gNUIMluU8EIwNUn2W6yRDI_5CbljsX76DGY5cpEY" />
   <meta name="description" content="Personal homepage of Alireza Rezvanian, Faculty Member of Artificial Intelligence and Computing at University of Science and Culture, Tehran, Iran, specializing in Machine Learning, Social Networks, Learning Automata, Soft Computing, and Complex Networks">
   <meta name="keywords" content="Machine Learning, Learning Automata, Social Networks, Complex Networks, Alireza Rezvanian, A. Rezvanian, Rezvanian, University of Science and Culture, Tehran, Iran, Computer Engineering, Artificial Intelligence">
   <link rel="canonical" href="https://rezvanian.github.io/">
@@ -231,12 +231,12 @@
       box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.03);
     }
 
-    /* Sidebar Social Badges */
+    /* Sidebar Academic Profile Badges */
     .sidebar-social {
       width: 100%;
       display: flex;
       justify-content: center;
-      gap: 10px;
+      gap: 9px;
       border-top: 1px solid rgba(0, 0, 0, 0.06);
       padding-top: 24px;
       flex-wrap: wrap;
@@ -246,30 +246,38 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 38px;
-      height: 38px;
+      width: 36px;
+      height: 36px;
       border-radius: 50%;
-      transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+      text-decoration: none;
+      flex-shrink: 0;
+      transition:
+        transform var(--transition-speed) ease,
+        box-shadow var(--transition-speed) ease,
+        background var(--transition-speed) ease;
     }
 
     .social-icon:hover {
       transform: translateY(-3px);
     }
 
-    /* Scholar (Blue) */
+    .social-icon::before {
+      display: block;
+      line-height: 0;
+    }
+
+    /* Google Scholar */
     .social-icon.scholar {
       background: rgba(66, 133, 244, 0.08);
       border: 1px solid rgba(66, 133, 244, 0.15);
       box-shadow: 0 2px 6px rgba(66, 133, 244, 0.08);
     }
-
     .social-icon.scholar:hover {
       background: #4285f4;
       box-shadow: 0 4px 12px rgba(66, 133, 244, 0.3);
     }
-
     .social-icon.scholar::before {
-      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24'%3E%3Cpath d='M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z' fill='white'/%3E%3Cpath d='M12 24a7 7 0 0 1-5-2.1 5.5 5.5 0 0 1 10 0A7 7 0 0 1 12 24z' fill='%23e8eaed'/%3E%3C/svg%3E");
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24'%3E%3Cpath d='M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z' fill='white'/%3E%3Cpath d='M12 24a7 7 0 0 1-5-2.1 5.5 5.5 0 0 1 10 0A7 7 0 0 1 12 24z' fill='%23e8eaed'/%3E%3C/svg%3E");
     }
 
     /* DBLP */
@@ -278,14 +286,12 @@
       border: 1px solid rgba(30, 58, 138, 0.15);
       box-shadow: 0 2px 6px rgba(30, 58, 138, 0.08);
     }
-
     .social-icon.dblp:hover {
       background: #1e3a8a;
       box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3);
     }
-
     .social-icon.dblp::before {
-      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24'%3E%3Ctext x='12' y='16' text-anchor='middle' font-family='Arial,sans-serif' font-weight='bold' font-size='9' fill='%23FFD700'%3EdblP%3C/text%3E%3C/svg%3E");
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='18' viewBox='0 0 40 24'%3E%3Ctext x='20' y='17' text-anchor='middle' font-family='Arial,sans-serif' font-weight='700' font-size='13' fill='%231e3a8a'%3Edblp%3C/text%3E%3C/svg%3E");
     }
 
     /* ORCID */
@@ -294,14 +300,12 @@
       border: 1px solid rgba(166, 206, 57, 0.15);
       box-shadow: 0 2px 6px rgba(166, 206, 57, 0.08);
     }
-
     .social-icon.orcid:hover {
       background: #a6ce39;
       box-shadow: 0 4px 12px rgba(166, 206, 57, 0.3);
     }
-
     .social-icon.orcid::before {
-      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24'%3E%3Cpath d='M8.5 7.5a1.2 1.2 0 1 1 0-2.4 1.2 1.2 0 0 1 0 2.4zM7.8 9h1.4v8.5H7.8zm4.2 0h3.8c2.7 0 4.2 1.8 4.2 4.2s-1.5 4.3-4.2 4.3H12zm1.4 1.2v6.1h2.3c2 0 2.9-1.3 2.9-3s-.9-3.1-2.9-3.1z' fill='white'/%3E%3C/svg%3E");
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='10' fill='white'/%3E%3Ccircle cx='8.2' cy='7.1' r='1.2' fill='%23a6ce39'/%3E%3Cpath d='M7.5 9.3h1.5v8H7.5zM11 9.3h3.8c2.7 0 4.2 1.7 4.2 4s-1.5 4-4.2 4H11zm1.5 1.3v5.4h2c1.9 0 2.9-1.1 2.9-2.7s-1-2.7-2.9-2.7z' fill='%23a6ce39'/%3E%3C/svg%3E");
     }
 
     /* USC CV */
@@ -310,14 +314,155 @@
       border: 1px solid rgba(13, 148, 136, 0.15);
       box-shadow: 0 2px 6px rgba(13, 148, 136, 0.08);
     }
-
     .social-icon.usc:hover {
       background: #0d9488;
       box-shadow: 0 4px 12px rgba(13, 148, 136, 0.3);
     }
-
     .social-icon.usc::before {
-      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 19.5A2.5 2.5 0 0 1 6.5 17H20'/%3E%3Cpath d='M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z'/%3E%3C/svg%3E");
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%230d9488' stroke-width='2.3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 19.5A2.5 2.5 0 0 1 6.5 17H20'/%3E%3Cpath d='M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z'/%3E%3C/svg%3E");
+    }
+
+    /* Web of Science */
+    .social-icon.wos {
+      background: rgba(30, 58, 138, 0.08);
+      border: 1px solid rgba(30, 58, 138, 0.15);
+    }
+    .social-icon.wos:hover {
+      background: #1e3a8a;
+      box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3);
+    }
+    .social-icon.wos::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' viewBox='0 0 24 24'%3E%3Cpath d='M12 2 21 7v2l-9 5-9-5V7z' fill='%231e3a8a'/%3E%3Cpath d='M5 11v4.5c0 2 3.1 3.5 7 3.5s7-1.5 7-3.5V11l-7 4z' fill='none' stroke='%231e3a8a' stroke-width='1.8'/%3E%3C/svg%3E");
+    }
+
+    /* Scopus */
+    .social-icon.scopus {
+      background: rgba(232, 126, 4, 0.08);
+      border: 1px solid rgba(232, 126, 4, 0.15);
+    }
+    .social-icon.scopus:hover {
+      background: #e87e04;
+      box-shadow: 0 4px 12px rgba(232, 126, 4, 0.3);
+    }
+    .social-icon.scopus::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='10' fill='%23e87e04'/%3E%3Cpath d='M16.5 8.2c-1-.8-2.2-1.2-3.7-1.2-2.7 0-4.5 1.3-4.5 3.3 0 2 1.7 2.8 4.1 3.3 1.4.3 2 .7 2 1.3 0 .7-.7 1.1-1.9 1.1-1.3 0-2.4-.4-3.4-1.2l-1 1.5c1.2 1 2.8 1.5 4.4 1.5 2.8 0 4.6-1.3 4.6-3.4 0-2-1.5-2.8-4-3.4-1.4-.3-2.1-.6-2.1-1.2 0-.6.7-1 1.8-1 1.1 0 2.1.3 2.9.9z' fill='white'/%3E%3C/svg%3E");
+    }
+
+    /* ResearchGate */
+    .social-icon.researchgate {
+      background: rgba(0, 150, 136, 0.08);
+      border: 1px solid rgba(0, 150, 136, 0.15);
+    }
+    .social-icon.researchgate:hover {
+      background: #00a89a;
+      box-shadow: 0 4px 12px rgba(0, 150, 136, 0.3);
+    }
+    .social-icon.researchgate::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' viewBox='0 0 24 24'%3E%3Cpath d='M7 5.5C7 3.6 8.4 2 10.3 2h3.4c2 0 3.3 1.2 3.3 3.1 0 1.6-.9 2.7-2.3 3.2 1.6.4 2.7 1.6 2.7 3.5 0 2.5-1.8 4.2-4.5 4.2H9.5V19H7zm2.7 1.1v2.4h3.1c1 0 1.6-.5 1.6-1.2 0-.8-.6-1.2-1.6-1.2zm0 4.3v3h3.3c1.1 0 1.8-.6 1.8-1.5s-.7-1.5-1.8-1.5z' fill='%23009688'/%3E%3Cpath d='M16.5 17.5h2.5V22h-2.5z' fill='%23009688'/%3E%3C/svg%3E");
+    }
+
+    /* PubMed */
+    .social-icon.pubmed {
+      background: rgba(51, 102, 153, 0.08);
+      border: 1px solid rgba(51, 102, 153, 0.15);
+    }
+    .social-icon.pubmed:hover {
+      background: #336699;
+      box-shadow: 0 4px 12px rgba(51, 102, 153, 0.3);
+    }
+    .social-icon.pubmed::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='10' fill='%23336699'/%3E%3Cpath d='M7 7h2.2l2.1 5.7L13.4 7h2.1l-3 8.2h-2.4zM16.5 7H18v10h-1.5z' fill='white'/%3E%3C/svg%3E");
+    }
+
+    /* LinkedIn */
+    .social-icon.linkedin {
+      background: rgba(10, 102, 194, 0.08);
+      border: 1px solid rgba(10, 102, 194, 0.15);
+    }
+    .social-icon.linkedin:hover {
+      background: #0a66c2;
+      box-shadow: 0 4px 12px rgba(10, 102, 194, 0.3);
+    }
+    .social-icon.linkedin::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24'%3E%3Crect x='3' y='3' width='18' height='18' rx='2' fill='%230a66c2'/%3E%3Ccircle cx='8' cy='8' r='1.3' fill='white'/%3E%3Cpath d='M6.8 10.5h2.4V18H6.8zM11 10.5h2.3v1c.6-.8 1.4-1.3 2.7-1.3 2.4 0 3.2 1.6 3.2 3.8V18h-2.4v-3.6c0-1-.1-2-1.4-2-1.4 0-1.6 1.1-1.6 2V18H11z' fill='white'/%3E%3C/svg%3E");
+    }
+
+    /* SciProfiles */
+    .social-icon.sciprofiles {
+      background: rgba(108, 99, 255, 0.08);
+      border: 1px solid rgba(108, 99, 255, 0.15);
+    }
+    .social-icon.sciprofiles:hover {
+      background: #6c63ff;
+      box-shadow: 0 4px 12px rgba(108, 99, 255, 0.3);
+    }
+    .social-icon.sciprofiles::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='8' r='3.2' fill='%236c63ff'/%3E%3Cpath d='M5.5 20c.5-4 2.6-6 6.5-6s6 2 6.5 6z' fill='%236c63ff'/%3E%3C/svg%3E");
+    }
+
+    /* IEEE */
+    .social-icon.ieee {
+      background: rgba(0, 98, 155, 0.08);
+      border: 1px solid rgba(0, 98, 155, 0.15);
+    }
+    .social-icon.ieee:hover {
+      background: #00629b;
+      box-shadow: 0 4px 12px rgba(0, 98, 155, 0.3);
+    }
+    .social-icon.ieee::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='17' viewBox='0 0 42 24'%3E%3Ctext x='21' y='16' text-anchor='middle' font-family='Arial,sans-serif' font-weight='700' font-size='12' fill='%2300629b'%3EIEEE%3C/text%3E%3C/svg%3E");
+    }
+
+    /* ACM */
+    .social-icon.acm {
+      background: rgba(0, 102, 153, 0.08);
+      border: 1px solid rgba(0, 102, 153, 0.15);
+    }
+    .social-icon.acm:hover {
+      background: #006699;
+      box-shadow: 0 4px 12px rgba(0, 102, 153, 0.3);
+    }
+    .social-icon.acm::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='17' viewBox='0 0 42 24'%3E%3Ctext x='21' y='16' text-anchor='middle' font-family='Arial,sans-serif' font-weight='700' font-size='11' fill='%23006699'%3EACM%3C/text%3E%3C/svg%3E");
+    }
+
+    /* ScienceDirect */
+    .social-icon.sciencedirect {
+      background: rgba(240, 120, 30, 0.08);
+      border: 1px solid rgba(240, 120, 30, 0.15);
+    }
+    .social-icon.sciencedirect:hover {
+      background: #f0781e;
+      box-shadow: 0 4px 12px rgba(240, 120, 30, 0.3);
+    }
+    .social-icon.sciencedirect::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='18' viewBox='0 0 42 24'%3E%3Ctext x='21' y='16' text-anchor='middle' font-family='Arial,sans-serif' font-weight='700' font-size='10' fill='%23f0781e'%3ESD%3C/text%3E%3C/svg%3E");
+    }
+
+    /* Academia */
+    .social-icon.academia {
+      background: rgba(170, 50, 50, 0.08);
+      border: 1px solid rgba(170, 50, 50, 0.15);
+    }
+    .social-icon.academia:hover {
+      background: #aa3232;
+      box-shadow: 0 4px 12px rgba(170, 50, 50, 0.3);
+    }
+    .social-icon.academia::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' viewBox='0 0 24 24'%3E%3Cpath d='M3 9 12 4l9 5-9 5z' fill='%23aa3232'/%3E%3Cpath d='M6 11v6c1.8 1.2 3.8 1.8 6 1.8s4.2-.6 6-1.8v-6l-6 3.3z' fill='%23aa3232'/%3E%3C/svg%3E");
+    }
+
+    /* Semantic Scholar */
+    .social-icon.semanticscholar {
+      background: rgba(38, 116, 183, 0.08);
+      border: 1px solid rgba(38, 116, 183, 0.15);
+    }
+    .social-icon.semanticscholar:hover {
+      background: #2674b7;
+      box-shadow: 0 4px 12px rgba(38, 116, 183, 0.3);
+    }
+    .social-icon.semanticscholar::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' viewBox='0 0 24 24'%3E%3Cpath d='M4 5h10l6 7-6 7H4l6-7z' fill='none' stroke='%232674b7' stroke-width='2'/%3E%3Cpath d='M8 8h5l3 4-3 4H8l3-4z' fill='%232674b7'/%3E%3C/svg%3E");
     }
 
     /* Content Area (Right Column) */
@@ -766,42 +911,66 @@
       <div class="profile-frame">
         <img class="profile-img" src="Alireza-rezvanian-01-2026.jpg" alt="Dr. Alireza Rezvanian">
       </div>
-      <h1 class="profile-name">Alireza Rezvanian</h1>
+      <h4 style="font-family:iransansweb">علیرضا رضوانیان</h4>
+	  <h1 class="profile-name">Alireza Rezvanian</h1>
       <p class="profile-title">Associate Professor</p>
       
       <ul class="nav-menu">
-        <li><a class="nav-link active-nav" href="#academicpreparation">Academic Preparation</a></li>
+        <li><a class="nav-link active-nav" href="#publication">Publications</a></li>
+		<li><a class="nav-link" href="#academicpreparation">Academic</a></li>
         <li><a class="nav-link" href="#researchinterests">Research Interests</a></li>
-        <li><a class="nav-link" href="#teaching">Teaching</a></li>
-        <li><a class="nav-link" href="#publication">Publications</a></li>
+        <li><a class="nav-link" href="#teaching">Teaching</a></li>       
         <li><a class="nav-link" href="#committees">Services & Activities </a></li>
 		<li><a class="nav-link" href="#awards">Awards </a></li>
       </ul>
       
       <div class="sidebar-social">
-        <a href="https://scholar.google.com/citations?user=1Sln9i0AAAAJ&hl=en" class="social-icon scholar" title="Google Scholar"></a>
-        <a href="https://dblp.org/pid/97/3781.html" class="social-icon dblp" title="DBLP Profile"></a>
-        <a href="https://orcid.org/0000-0003-3323-7832" class="social-icon orcid" title="ORCID Profile"></a>
-        <a href="http://rezvanian.usc.ac.ir/" class="social-icon usc" title="USC CV (Persian)"></a>
-		<a class="nav-link" href="https://www.webofscience.com/wos/author/record/B-1604-2012">Web of Science</a>
-		<a class="nav-link" href="https://www.scopus.com/authid/detail.uri?authorId=26421384500">Scopus</a>
-		<a class="nav-link" href="https://www.researchgate.net/profile/Alireza-Rezvanian">ResearchGate</a>
-		<a class="nav-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=alireza+rezvanian">PubMed</a>
-		<a class="nav-link" href="https://www.linkedin.com/in/alireza-rezvanian/">LinkedIn</a>
-		<a class="nav-link" href="https://sciprofiles.com/profile/1962006">SciProfiles</a>
-		<a class="nav-link" href="https://ieeexplore.ieee.org/author/37546976200">IEEE</a>
-		<a class="nav-link" href="https://dl.acm.org/profile/81392616823">ACM</a>
-		<a class="nav-link" href="https://www.amazon.com/stores/author/B0BBKD7DDS">Amazon Author</a>
-		<a class="nav-link" href="https://www.sciencedirect.com/author/26421384500/alireza-rezvanian">Elsevier - ScienceDirect</a>
-		<a class="nav-link" href="https://amirkabir.academia.edu/AlirezaRezvanian">Academia</a>
-		<a class="nav-link" href="https://www.csauthors.net/alireza-rezvanian/">CSAuthors</a>
-		<a class="nav-link" href="https://loop.frontiersin.org/people/2741621/overview">Loop</a>
-		<a class="nav-link" href="https://www.magiran.com/author/profile/443403/%D8%B9%D9%84%DB%8C%D8%B1%D8%B6%D8%A7-%D8%B1%D8%B6%D9%88%D8%A7%D9%86%DB%8C%D8%A7%D9%86">MagIran</a>
-		<a class="nav-link" href="https://en.civilica.com/p/7226/">Civilica</a>
-		<a class="nav-link" href="https://www.semanticscholar.org/author/Alireza-Rezvanian/3208119">Semantic Scholar</a>
-		<a class="nav-link" href="https://www.intechopen.com/profiles/530085">IntechOpen</a>
-		<a class="nav-link" href="https://scholargps.com/scholars/42970333262346/alireza-rezvanian">ScholarGPS</a>
-		
+
+        <a href="https://scholar.google.com/citations?user=1Sln9i0AAAAJ&hl=en"
+           class="social-icon scholar" title="Google Scholar" aria-label="Google Scholar"></a>
+
+        <a href="https://dblp.org/pid/97/3781.html"
+           class="social-icon dblp" title="DBLP" aria-label="DBLP"></a>
+
+        <a href="https://orcid.org/0000-0003-3323-7832"
+           class="social-icon orcid" title="ORCID" aria-label="ORCID"></a>
+
+        <a href="http://rezvanian.usc.ac.ir/"
+           class="social-icon usc" title="USC CV (Persian)" aria-label="USC CV"></a>
+
+        <a href="https://www.webofscience.com/wos/author/record/B-1604-2012"
+           class="social-icon wos" title="Web of Science" aria-label="Web of Science"></a>
+
+        <a href="https://www.scopus.com/authid/detail.uri?authorId=26421384500"
+           class="social-icon scopus" title="Scopus" aria-label="Scopus"></a>
+
+        <a href="https://www.researchgate.net/profile/Alireza-Rezvanian"
+           class="social-icon researchgate" title="ResearchGate" aria-label="ResearchGate"></a>
+
+        <a href="https://pubmed.ncbi.nlm.nih.gov/?term=alireza+rezvanian"
+           class="social-icon pubmed" title="PubMed" aria-label="PubMed"></a>
+
+        <a href="https://www.linkedin.com/in/alireza-rezvanian/"
+           class="social-icon linkedin" title="LinkedIn" aria-label="LinkedIn"></a>
+
+        <a href="https://sciprofiles.com/profile/1962006"
+           class="social-icon sciprofiles" title="SciProfiles" aria-label="SciProfiles"></a>
+
+        <a href="https://ieeexplore.ieee.org/author/37546976200"
+           class="social-icon ieee" title="IEEE" aria-label="IEEE"></a>
+
+        <a href="https://dl.acm.org/profile/81392616823"
+           class="social-icon acm" title="ACM" aria-label="ACM"></a>
+
+        <a href="https://www.sciencedirect.com/author/26421384500/alireza-rezvanian"
+           class="social-icon sciencedirect" title="ScienceDirect" aria-label="ScienceDirect"></a>
+
+        <a href="https://amirkabir.academia.edu/AlirezaRezvanian"
+           class="social-icon academia" title="Academia" aria-label="Academia"></a>
+
+        <a href="https://www.semanticscholar.org/author/Alireza-Rezvanian/3208119"
+           class="social-icon semanticscholar" title="Semantic Scholar" aria-label="Semantic Scholar"></a>
+
       </div>
     </aside>
     
@@ -826,7 +995,7 @@
       <div class="card">
         
         <!-- Academic Preparation -->
-        <section class="content-section active" id="academicpreparation">
+        <section class="content-section" id="academicpreparation">
           <h2 class="section-title">Academic Preparation</h2>
           <ul class="custom-list prep-list">
   <li><b>Ph. D.</b> Computer Engineering (Artificial Intelligence), Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran, 2016.</li>
@@ -878,7 +1047,7 @@
         </section>
         
         <!-- Publications -->
-        <section class="content-section" id="publication">
+        <section class="content-section active" id="publication">
           <h2 class="section-title">Publications</h2>
           
           <div class="pub-search-bar">
@@ -1171,7 +1340,8 @@
       
       // Initialize based on URL hash
       const initialHash = window.location.hash.replace("#", "");
-      showSection(initialHash || "academicpreparation");
+      //showSection(initialHash || "academicpreparation");
+	  showSection(initialHash || "publication");
 
       // --- Publication Search Bar ---
       const pubSearchInput = document.getElementById("pub-search");
